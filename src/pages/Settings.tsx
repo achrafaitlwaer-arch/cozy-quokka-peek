@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState }
+import { cn } from "@/lib/utils"
+ from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, Globe, Bell, Moon, Shield, Info, ChevronRight } from 'lucide-react';
 import { Switch } from '@/components/ui/switch';
